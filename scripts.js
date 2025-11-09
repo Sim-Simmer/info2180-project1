@@ -2,6 +2,7 @@ const form = document.querySelector('.newsletter form');
 const emailInput = form.querySelector('input[type="email"]');
 const messageDiv = document.querySelector('.newsletter .message');
 form.addEventListener('submit', function(event) {
+    event.preventDefault();
     const email = emailInput.value;
     if(email===''){
         messageDiv.textContent = 'Please enter a valid email address.';
