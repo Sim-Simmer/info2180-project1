@@ -9,3 +9,96 @@ body {
     max-width: 960px;
     width: 100%;
 }
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.overview-hero .container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.learn-about .cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.learn-about .card{
+    display: flex;
+    flex-direction: column;
+}
+
+.testing .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.testing-description{
+    flex: 2;
+}
+
+.cta{
+    flex: 1;
+}
+
+.stories .container article{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 20px;
+}
+
+.stories .container article img {
+    width: 100px;         
+    height: 100px;
+    border-radius: 50%;    
+    object-fit: cover;      
+}
+
+.newsletter .container {
+    text-align: center;     
+    padding: 20px;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;           
+    margin-top: 10px;       
+}
+
+.newsletter input[type="email"] {
+    padding: 8px;
+    font-size: 16px;
+    width: 250px;
+}
+
+.newsletter button {
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter .message {
+    margin-top: 10px;
+}
+
+main section {
+    margin: 32px 0;
+    padding: 16px 0;
+}
